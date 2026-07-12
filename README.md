@@ -33,25 +33,52 @@ For a thin dipole along the z-axis,
 F_{element}(\theta)\approx \sin\theta .
 ```
 
-The following figures show the basic broadside/end-fire idea, the HFSS dipole model, port excitation, radiation box, return loss, gain pattern, and directivity pattern.
+The next figures show the basic broadside/end-fire idea, the HFSS dipole model, port excitation, radiation box, return loss, gain pattern, and directivity pattern.
 
-![3 (2).png](figures/3%20%282%29.png)
+<p align="center">
+  <img src="figures/3%20%282%29.png" alt="3 (2).png" width="650">
+</p>
+<p align="center"><em>Figure 1. Broadside linear dipole array and its expected radiation pattern.</em></p>
 
-![4.png](figures/4.png)
+<p align="center">
+  <img src="figures/4.png" alt="4.png" width="650">
+</p>
+<p align="center"><em>Figure 2. End-fire linear dipole array and its expected radiation pattern.</em></p>
 
-![5.png](figures/5.png)
+<p align="center">
+  <img src="figures/5.png" alt="5.png" width="420">
+</p>
+<p align="center"><em>Figure 3. HFSS model of a single dipole element with a small feeding gap.</em></p>
 
-![6.png](figures/6.png)
+<p align="center">
+  <img src="figures/6.png" alt="6.png" width="750">
+</p>
+<p align="center"><em>Figure 4. Final HFSS array geometry inside the radiation boundary box.</em></p>
 
-![7.png](figures/7.png)
+<p align="center">
+  <img src="figures/7.png" alt="7.png" width="480">
+</p>
+<p align="center"><em>Figure 5. Electric-field distribution of the lumped-port excitation mode.</em></p>
 
-![8.png](figures/8.png)
+<p align="center">
+  <img src="figures/8.png" alt="8.png" width="750">
+</p>
+<p align="center"><em>Figure 6. Return loss, S11, of the simulated dipole array around the design frequency.</em></p>
 
-![9.png](figures/9.png)
+<p align="center">
+  <img src="figures/9.png" alt="9.png" width="450">
+</p>
+<p align="center"><em>Figure 7. Two-dimensional gain pattern of the linear dipole array.</em></p>
 
-![10.png](figures/10.png)
+<p align="center">
+  <img src="figures/10.png" alt="10.png" width="750">
+</p>
+<p align="center"><em>Figure 8. Three-dimensional gain pattern obtained from HFSS.</em></p>
 
-![11 (2).png](figures/11%20%282%29.png)
+<p align="center">
+  <img src="figures/11%20%282%29.png" alt="11 (2).png" width="750">
+</p>
+<p align="center"><em>Figure 9. Directivity pattern of the array at the operating frequency.</em></p>
 
 From the return-loss plot, the antenna is matched around the design frequency near 2.6 GHz.  
 The gain/directivity plots also show that the array makes the main beam narrower compared with a single dipole.
@@ -94,9 +121,15 @@ I(z)=I_0\sin\left(k\left(\frac{L}{2}-|z|\right)\right).
 
 The mutual impedance is expected to oscillate and decrease as \(d/\lambda\) increases, because the coupling between the two dipoles becomes weaker.
 
-![1 (2).png](figures/1%20%282%29.png)
+<p align="center">
+  <img src="figures/1%20%282%29.png" alt="1 (2).png" width="750">
+</p>
+<p align="center"><em>Figure 10. Self-impedance and mutual-impedance results using the sinusoidal current approximation.</em></p>
 
-![2 (2).png](figures/2%20%282%29.png)
+<p align="center">
+  <img src="figures/2%20%282%29.png" alt="2 (2).png" width="650">
+</p>
+<p align="center"><em>Figure 11. MoM trial result for the real and imaginary parts of mutual impedance.</em></p>
 
 The first result gives the expected qualitative behavior for mutual impedance.  
 The second plot is kept as a numerical MoM trial result, but it should be interpreted carefully because its large values at higher distance are not physically expected.
@@ -138,13 +171,25 @@ U(\theta,\phi)\propto |AF(\theta,\phi)|^2 |F_{element}(\theta)|^2 .
 
 The square-array results show that increasing the number of elements usually increases directivity and makes the main lobe narrower. Increasing the spacing can increase aperture size, but for large spacing it also creates grating lobes.
 
-![12.png](figures/12.png)
+<p align="center">
+  <img src="figures/12.png" alt="12.png" width="750">
+</p>
+<p align="center"><em>Figure 12. Directivity versus number of elements for the square array.</em></p>
 
-![13.png](figures/13.png)
+<p align="center">
+  <img src="figures/13.png" alt="13.png" width="750">
+</p>
+<p align="center"><em>Figure 13. MATLAB polar cuts for the square array using the built-in array function.</em></p>
 
-![14.png](figures/14.png)
+<p align="center">
+  <img src="figures/14.png" alt="14.png" width="700">
+</p>
+<p align="center"><em>Figure 14. Radiation-pattern cuts for the square array with a smaller number of elements.</em></p>
 
-![15.png](figures/15.png)
+<p align="center">
+  <img src="figures/15.png" alt="15.png" width="700">
+</p>
+<p align="center"><em>Figure 15. Radiation-pattern cuts for the square array after changing array parameters.</em></p>
 
 ---
 
