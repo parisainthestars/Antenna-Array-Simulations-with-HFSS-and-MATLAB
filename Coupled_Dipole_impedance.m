@@ -1,13 +1,4 @@
 
-% author: UJWOL PALANCHOKE
-%         JACOBS UNERSITY, BREMEN, GERMANY
-% all righ reserved to author
-
-% Impedance of coupled dipole antenna with respect to wavelength.The dipole antenna seperated by distance
-% delta. The method used is Hallen's Integral. Here the second dipole is not fed by any
-% voltage source
-
-
 clear all;
 lamda=1;        %arbitary wavelength (in meter): this can be varied accourding to the problem
 
